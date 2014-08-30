@@ -1,0 +1,57 @@
+.title {
+	font-size: 72px;
+	color: rgb(240,140,240);
+	text-align: center;
+}
+
+th {
+	color: blue;
+}
+
+.classy {
+	border: 1px solid rgb(240, 240, 240);
+}
+
+td {
+	padding: 10px;
+}
+
+td:hover {
+	background-color: rgba(100,100,200,0.5);
+}
+
+td {
+	position: relative;
+	width: 100px;
+	height: 100px;
+}
+
+td:nth-child(even) {
+	background-color: rgba(0,0,0,0.1);
+}
+
+.date {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+}
+
+.event {
+	background-color: rgba(190,100,200,0.2);
+	display: block;
+}
+
+.outside {
+	color: rgb(150,150,150);
+}
+
+/* form */
+
+form {
+	margin: 15px auto;
+	width: 480px;
+	display: block;
+	padding: 15px;
+	border: 1px solid rgb(240,140,240);
+	text-align: center;
+}
